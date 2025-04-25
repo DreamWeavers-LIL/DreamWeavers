@@ -1,36 +1,39 @@
 
 import React from 'react';
 import TeamMember from '../components/TeamMember';
+import swathy from './swathy.jpg'
+import aravind from './Aravind.jpg'
+import nithiya from './nithiya.jpg'
 
 const AboutPage = () => {
   const teamMembers = [
     {
       id: 1,
-      name: 'Alex Chen',
+      name: 'Nithiya B',
       role: 'Project Lead & Frontend Developer',
       bio: 'Computer Science major with a passion for creating intuitive user interfaces and seamless experiences.',
-      imageUrl: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&q=80'
+      imageUrl: nithiya
     },
     {
       id: 2,
-      name: 'Jordan Taylor',
+      name: 'Swathy S',
       role: 'AI & Machine Learning Engineer',
       bio: 'Specializes in natural language processing and conversational AI systems for educational technology.',
-      imageUrl: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&q=80'
+      imageUrl: swathy
     },
     {
       id: 3,
-      name: 'Maya Patel',
+      name: 'Arun Nehru S',
       role: 'UX Designer & Researcher',
       bio: 'Studies the intersection of technology and education, focused on creating accessible learning tools.',
       imageUrl: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&q=80'
     },
     {
       id: 4,
-      name: 'Tyler Wilson',
-      role: 'Backend Developer & Systems Architect',
+      name: 'Aravind M',
+      role: 'Backend Developer',
       bio: 'Passionate about building scalable systems that power intelligent applications in education.',
-      imageUrl: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&q=80'
+      imageUrl: aravind
     },
   ];
 
@@ -85,7 +88,7 @@ const AboutPage = () => {
                 </div>
                 <div className="mt-4 text-center">
                   <h3 className="font-medium text-gray-900">Project Inception</h3>
-                  <p className="text-gray-500 text-sm">September 2023</p>
+                  <p className="text-gray-500 text-sm">November 2024</p>
                   <p className="text-gray-600 mt-2">Concept development and initial research</p>
                 </div>
               </div>
@@ -96,7 +99,7 @@ const AboutPage = () => {
                 </div>
                 <div className="mt-4 text-center">
                   <h3 className="font-medium text-gray-900">Development Phase</h3>
-                  <p className="text-gray-500 text-sm">October - December 2023</p>
+                  <p className="text-gray-500 text-sm">December - 2024 December - 2025</p>
                   <p className="text-gray-600 mt-2">Building the AI model and user interface</p>
                 </div>
               </div>
@@ -107,7 +110,7 @@ const AboutPage = () => {
                 </div>
                 <div className="mt-4 text-center">
                   <h3 className="font-medium text-gray-900">Beta Testing</h3>
-                  <p className="text-gray-500 text-sm">January - February 2024</p>
+                  <p className="text-gray-500 text-sm">January - February 2026</p>
                   <p className="text-gray-600 mt-2">Student feedback and system refinement</p>
                 </div>
               </div>
@@ -118,7 +121,7 @@ const AboutPage = () => {
                 </div>
                 <div className="mt-4 text-center">
                   <h3 className="font-medium text-gray-900">Official Launch</h3>
-                  <p className="text-gray-500 text-sm">March 2024</p>
+                  <p className="text-gray-500 text-sm">March 2026</p>
                   <p className="text-gray-600 mt-2">Rollout to the entire student body</p>
                 </div>
               </div>
