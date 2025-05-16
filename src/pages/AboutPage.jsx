@@ -4,6 +4,7 @@ import TeamMember from '../components/TeamMember';
 import swathy from './swathy.jpg'
 import aravind from './Aravind.jpg'
 import nithiya from './nithiya.jpg'
+import arun from './arun.jpg'
 
 const AboutPage = () => {
   const teamMembers = [
@@ -26,7 +27,7 @@ const AboutPage = () => {
       name: 'Arun Nehru S',
       role: 'UX Designer & Researcher',
       bio: 'Studies the intersection of technology and education, focused on creating accessible learning tools.',
-      imageUrl: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&h=500&q=80'
+      imageUrl: arun
     },
     {
       id: 4,
